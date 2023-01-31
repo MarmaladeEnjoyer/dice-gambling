@@ -53,6 +53,8 @@ while True:
 		nb = round(Balance)
 		Balance = nb
 		print("New Balance: ", Balance)
+		GamesPlayed = GamesPlayed + 1
+		GamesWon = GamesWon + 1
 		time.sleep(3)
 		os.system("clear")
 	else:
@@ -61,5 +63,7 @@ while True:
 		nb = round(Balance)
 		Balance = nb
 		print("New Balance: ", Balance)
+		GamesPlayed = GamesPlayed + 1
+		GamesLost = GamesLost + 1
 		time.sleep(3)
 		os.system("clear")
